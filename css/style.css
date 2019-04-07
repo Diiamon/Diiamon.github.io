@@ -1,0 +1,235 @@
+div {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+#navigation {
+  background-color: black!important;
+  color: white;
+  overflow: hidden;
+}
+/* #whites:hover{
+  color: green;
+  font-family: cursive;
+  font-size: 20px;
+} */
+#white1:hover{
+  color: green;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+#home1:hover{
+  color: green;
+  font-family: cursive;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#riddles:hover{
+  color: green;
+  font-family: cursive;
+  font-size: 20px;
+  text-decoration: none;
+}
+#my-game:hover{
+  color: green;
+  font-family: cursive;
+  font-size: 20px;
+  text-decoration: none;
+}
+/* #white:hover{
+  color: green;
+  font-family: cursive;
+  font-size: 20px;
+} */
+
+#myvideo {
+  width: 100%;
+  height: 100%;
+}
+
+
+.menu {
+  color: white;
+  margin: 10px;
+font-family: cursive;
+font-size: 20px;
+}
+
+#container {
+  /* align-content: center; */
+  /* border-color: pink;
+  border-style: dashed; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* border: 1px solid red; */
+}
+#jumbotron {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  line-height: 70px;
+
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+#two {
+  font-family: fantasy;
+  color: #00802b;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+#three {
+  font-family: cursive;
+  color: #00802b;
+  font-size:20px;
+  text-align: center;
+}
+
+#one {
+  font-family: cursive;
+  font-size: 20px;
+  color: #00802b;
+  text-align: center;
+}
+
+#begin:hover {
+  background: white;
+  border: 1px solid green;
+  color: black;
+  cursor: pointer;
+}
+
+.quiz {
+  font-style: italic;
+  color: green;
+  height: 100%;
+  width: 100%;
+  /* visibility: hidden; */
+
+}
+
+#riddlerq {
+  width: 50%;
+  height: 100vh;
+	float:right;
+  align-items: center;
+
+}
+
+.quiz {
+  height: 100%;
+  width: 100%;
+}
+
+.myquiz {
+  color: white;
+  font-family: cursive;
+  line-height: 30px;
+  margin-left: 10px;
+  padding: 10px 20px 10px 20px;
+  width: 100vh;
+  border-radius: 10px;
+
+
+}
+
+.textbox {
+  height: 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 5px;
+}
+
+#finished:hover {
+  background: white;
+  border: 1px solid green;
+  color: black;
+  cursor: pointer;
+}
+
+#home2{
+  float: right;
+
+}
+
+#home2:hover {
+  background: white;
+  border: 1px solid green;
+  color: black;
+  cursor: pointer;
+
+}
+
+#myModal{
+  background-image: url(../resources/images/exclamation.jpg);
+
+}
+
+#message{
+  color: green;
+  font-style: italic;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#number_correct{
+  color: green;
+  font-style: italic;
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+#picture {
+  height: 50vh;
+}
+
+#after_submit {
+  visibility: hidden;
+}
+
+#game {
+  width: 100%;
+  height: 100%;
+  /* background-color: black;
+  border-style: dashed;
+  border-color: red; */
+ color: white;
+ font-style: italic;
+ font-family: cursive;
+ text-align: center;
+
+}
+
+#riddler-game {
+  width: 300px;
+  height: 400px;
+}
+
+.col-8 {
+  /* border-style: dashed;
+  border-color: red; */
+  width: 60vw;
+  height: 80vh;
+}
+
+
+
+
+
+/* #input {
+  margin-bottom: 20px;
+} */

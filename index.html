@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Riddle site</title>
+</head>
+
+<body>
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a id="whites" class="menu"> Riddle me this </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a id="home1" class="menu" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a id="riddles" class="menu" href="#jumbotron">Riddles</a>
+                </li>
+                <li class="nav-item">
+                    <a id="my-game" class="menu" href="#game">My Game</a>
+                </li>
+            </ul>
+            <span id="white" class="menu">
+      GET READY TO BLOW YOUR MIND!!!
+    </span>
+        </div>
+    </nav>
+    <!-- The video, made from scratch -->
+    <video autoplay muted loop id="myvideo">
+        <source src="resources/videos/fireworks3.mp4" type="video/mp4">
+    </video>
+    <div id="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="resources/images/riddler.jpg" alt="riddler">
+
+            </div>
+            <div class="col-4">
+                <div id="jumbotron">
+                    <a id="two" <p><h1 class="display-4">ARE YOU READY!!!</h1></p></a>
+                    <a id="three" <p>HA! I'M THE ONE AND ONLY RIDDLER</p></a>
+
+                    <a id="one" <p>Let's see just how smart you are,</p>
+        <p> But just know this,</p>
+        <p>You're not smarter than me!!! </p> </a>
+                    <a id="begin" class="btn btn-success btn-lg" href="#start" role="button">BEGIN</a></a>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="resources/images/riddler.jpg" alt="riddler">
+            </div>
+        </div>
+    </div>
+    <div class="quiz">
+        <img id="riddlerq" src="resources/images/questions.jpg" alt="questions">
+
+        <h1 id="start">So lets see if you can answer my riddles.</h1>
+        <form class="myquiz" action="index.html" method="post">
+
+            <p>What is the beginning of eternity, the end of time and space, the beginning of every end and the end of every race?</p>
+            <input class="textbox" type="text" name="question1" id="question1">
+
+            <p>What won't run long without winding?</p>
+            <input type="radio" class="question2" name="question2" value="A wind up toy">A wind up toy
+            <br>
+            <input type="radio" class="question2" name="question2" value="A River">A River
+            <br>
+            <input type="radio" class="question2" name="question2" value="A Clock">A Clock
+            <br>
+
+            <p>What belongs to you, but is used by others?</p>
+            <input class="textbox" type="text" name="question3" id="question3">
+
+            <p>We're five little items of an everyday sort; you'll find us all in 'a tennis court'.</p>
+            <input class="textbox" type="text" name="question4" id="question4">
+
+            <p>The more you take away from it the larger it grows, what is it?</p>
+            <input class="textbox" type="text" name="question5" id="question5">
+
+            <p>When is a person like a piece of wood?</p>
+            <input type="radio" class="question6" name="question6" value="A stick">A stick
+            <br>
+            <input type="radio" class="question6" name="question6" value="A window of opportunity">A window of opportunity
+            <br>
+            <input type="radio" class="question6" name="question6" value="A Ruler">A Ruler
+            <br>
+
+            <button id="finished" type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">I'm Finshed</button>
+
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 id="message" class="modal-title">Modal Heading</h4>
+                            <!-- <button type="button" class="close" data-dismiss="modal"> -->
+                            <!-- <span aria-hidden="true">&times;</span> -->
+                            <!-- </button> -->
+                        </div>
+
+                        <!-- Modal body -->
+                        <div id="number_correct" class="modal-body">
+                            Modal body..
+                        </div>
+                        <div>
+                            <img id="picture" src="" alt="picture">
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <a id="home2" class="btn btn-success btn-lg" href="#navigation" role="button">Home</a></a>
+
+            <!-- <input id="endbutton" type="button" value="I'm finshed" onclick="check();"> -->
+
+        </form>
+        <div id="after_submit">
+            <!-- <p id="message"></p> -->
+            <!-- <p id="number_correct"></p> -->
+            <!-- <img id="picture"> -->
+
+        </div>
+
+    </div>
+    <div id="game">
+        <h1>Now lets test your focus</h1>
+        <div class="row">
+            <div class="col-3">
+                <img id="riddler-game" src="resources/images/game.jpg" alt="riddler">
+
+            </div>
+            <div class="col-8">
+                <script src="https://cdn.htmlgames.com/embed.js?game=ClassicFreecellSolitaire&amp;&amp;bgcolor=white"></script>
+            </div>
+            <div class="col-1">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
