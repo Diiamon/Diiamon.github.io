@@ -86,6 +86,13 @@ img{
   background-color: black;
 }
 
+.one {
+  font-family: cursive;
+  font-size: 20px;
+  color: #00802b;
+  text-align: center;
+}
+
 #two {
   font-family: fantasy;
   color: #00802b;
@@ -98,15 +105,30 @@ img{
   font-family: cursive;
   color: #00802b;
   font-size:20px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 #one {
   font-family: cursive;
   font-size: 20px;
   color: #00802b;
-  /* text-align: center; */
+  text-align: center;
 }
+
+#four {
+  font-family: cursive;
+  font-size: 20px;
+  color: #00802b;
+  text-align: center;
+}
+
+#five {
+  font-family: cursive;
+  font-size: 20px;
+  color: #00802b;
+  text-align: center;
+}
+
 
 #begin:hover {
   background: white;
