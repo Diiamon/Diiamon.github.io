@@ -136,6 +136,12 @@ img{
   text-align: center;
 }
 
+#begin {
+  display: block;
+  margin: auto;
+  max-width: 85px;
+
+}
 
 #begin:hover {
   background: white;
