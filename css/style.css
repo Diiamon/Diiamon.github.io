@@ -1,7 +1,9 @@
-html {
+html, body {
   background-color: #000000;
 
 }
+
+
 
 
 div {
@@ -55,8 +57,9 @@ div {
 #myvideo {
   width: 100%;
   height: 100%;
-  padding-bottom: 0px;
+  /* padding-bottom: 0px; */
   margin: 0px;
+  padding: 0px;
 }
 
 
